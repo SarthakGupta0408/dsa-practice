@@ -1,14 +1,3 @@
-/*
-Problem: Move Zeroes
-Difficulty: Easy
-
-Approach:
-Move all non-zero elements to the beginning
-while maintaining their relative order.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
