@@ -1,15 +1,4 @@
-/*
-Problem: Right Rotate Array by One Position
-Difficulty: Easy
 
-Approach:
-1. Store the last element.
-2. Shift all elements one position to the right.
-3. Place the last element at the beginning.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
