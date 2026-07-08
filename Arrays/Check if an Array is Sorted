@@ -1,14 +1,3 @@
-/*
-Problem: Check if an Array is Sorted
-Difficulty: Easy
-
-Approach:
-Traverse the array and compare each element
-with its previous element.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
