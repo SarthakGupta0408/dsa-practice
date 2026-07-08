@@ -1,15 +1,4 @@
-/*
-Problem: Linear Search
-Difficulty: Easy
 
-Approach:
-Traverse the array one by one.
-If the target element is found, return its index.
-Otherwise, return -1.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
