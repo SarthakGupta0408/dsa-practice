@@ -1,15 +1,3 @@
-/*
-Problem: Left Rotate Array by One Position
-Difficulty: Easy
-
-Approach:
-1. Store the first element.
-2. Shift all elements one position to the left.
-3. Place the first element at the end.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
