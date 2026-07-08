@@ -1,17 +1,4 @@
-/*
-Problem: Find Second Largest Element in an Array
-Difficulty: Easy
 
-Approach:
-Maintain two variables:
-1. largest
-2. secondLargest
-
-Update them while traversing the array.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 
 #include <iostream>
 using namespace std;
