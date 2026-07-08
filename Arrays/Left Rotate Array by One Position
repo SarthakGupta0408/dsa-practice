@@ -1,0 +1,58 @@
+/*
+Problem: Left Rotate Array by One Position
+Difficulty: Easy
+
+Approach:
+1. Store the first element.
+2. Shift all elements one position to the left.
+3. Place the first element at the end.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+#include <iostream>
+using namespace std;
+
+void leftRotateByOne(int arr[], int n)
+{
+    if (n <= 1)
+        return;
+
+    int first = arr[0];
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        arr[i] = arr[i + 1];
+    }
+
+    arr[n - 1] = first;
+}
+
+int main()
+{
+    int n;
+
+    cout << "Enter size of array: ";
+    cin >> n;
+
+    int arr[n];
+
+    cout << "Enter elements:\n";
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    leftRotateByOne(arr, n);
+
+    cout << "Array after left rotation:\n";
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}
